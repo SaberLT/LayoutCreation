@@ -36,7 +36,8 @@ div.second-section {
     background-image: url("images/00003.png");
     height: 500px;
     margin: 0px;
-    background-size: cover;
+    background-size: auto 100%;
+    
 }
 
 @media (max-width: 1151.98px) {
@@ -47,11 +48,15 @@ div.second-section {
 
 .second-section-margin {
     margin-left: 256px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    max-width: 600px;
 }
 
 @media (max-width: 767.98px) {
     .second-section-margin {
         margin-left: 36px;
+        max-width: 300px;
     }
 }
 
@@ -78,4 +83,8 @@ p.middle-text {
     font-size: 24px;
     font-weight: bold;
     font-family: Roboto, sans-serif;
+}
+
+.third-section{
+    margin-top: 48px;
 }
