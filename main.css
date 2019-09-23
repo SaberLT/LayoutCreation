@@ -87,4 +87,22 @@ p.middle-text {
 
 .third-section{
     margin-top: 48px;
+    margin-right: 0px;
+}
+
+.third-section-extractor {
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+}
+
+.middle-text.lower-text {
+    font-size: 18px;
+}
+
+.download-button.download-yellow-button {
+    background: url("Images/00003.svg");
+    margin-top: 54px;
+    margin-bottom: 60px;
 }
