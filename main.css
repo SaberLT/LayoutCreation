@@ -1,0 +1,81 @@
+#app {
+    margin: 0px;
+}
+
+div.first-section {
+    background-color : #232E42;
+    width: 100%;
+    margin: 0px;
+}
+
+img.header-image {
+    margin: 24px 24px 24px 0;
+}
+
+div.header-right-block {
+    margin: 32px 0 0 0;
+}
+
+.header-text {
+    font: 36px Roboto, sans-serif ;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.header-text.header-text-highlight {
+    color: #3BB7FD;
+    display: inherit;
+    font-weight: bold;
+}
+
+ul.header-right-list {
+    list-style-image: url("Images/00002.png");
+}
+
+div.second-section {
+    background-image: url("images/00003.png");
+    height: 500px;
+    margin: 0px;
+    background-size: cover;
+}
+
+@media (max-width: 1151.98px) {
+    div.second-section {
+        background-image: url("images/00004.png");
+    }    
+}
+
+.second-section-margin {
+    margin-left: 256px;
+}
+
+@media (max-width: 767.98px) {
+    .second-section-margin {
+        margin-left: 36px;
+    }
+}
+
+p.second-section-header {
+    margin: 48px 0 0 0;
+    font: 48px Roboto, sans-serif ;
+    color: black;
+    font-weight: bold;
+}
+
+button.download-button {
+    background: url("Images/00001.svg");
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 2px;
+    margin: 0 16px 0 0;
+}
+
+p.middle-text {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+}
