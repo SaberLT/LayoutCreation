@@ -202,5 +202,39 @@ p.right-block {
 
 .seventh-section {
     margin-top: 24px;
-    background-color: #FFFFFF;
+    margin-bottom: 36px;
+}
+
+div.seventh-left-block-offset {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.sixth-block.increased {
+    font-size: 36px;
+}
+
+.sixth-block.bigger {
+    font-size: 24px;
+}
+.seventh-section-crutch {
+    background-image: url("Images/00009.png");
+    background-size: 100% 100%;
+}
+
+
+div.eighth-section {
+    background-image: url("Images/00010.png");
+    background-size: 100% 100%;
+}
+
+.no-right-margin {
+    margin-right: 0px;
+}
+
+div.text-block-offset {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
