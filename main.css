@@ -34,13 +34,12 @@ ul.header-right-list {
 
 div.second-section {
     background-image: url("images/00003.png");
-    height: 500px;
     margin: 0px;
     background-size: 100% 100%;
     
 }
 
-@media (max-width: 1151.98px) {
+@media (max-width: 991.98px) {
     div.second-section {
         background-image: url("images/00004.png");
     }    
@@ -53,7 +52,7 @@ div.second-section {
     max-width: 600px;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 991.98px) {
     .second-section-margin {
         margin-left: 36px;
         max-width: 300px;
@@ -149,7 +148,13 @@ p.middle-text {
 }
 
 .fifth-card-corner-offset {
-    margin-top: 168px;
+    margin-top: 32px;
+}
+
+@media(min-width: 991.97px) {       
+    .fifth-card-corner-offset {
+        margin-top: 168px;
+    }
 }
 
 .download-yellow-button.no-offset {
@@ -205,6 +210,15 @@ p.right-block {
     margin-bottom: 36px;
 }
 
+@media (max-width: 991.98px) {
+    .seventh-section {
+        margin-top: 24px;
+        margin-bottom: 36px;
+        background: url("Images/00013.png");
+        margin-bottom: 0;
+    }
+}
+
 div.seventh-left-block-offset {
     margin-top: 48px;
     margin-bottom: 48px;
@@ -222,10 +236,22 @@ div.seventh-left-block-offset {
     background-size: 100% 100%;
 }
 
+@media (max-width: 991.98px) {   
+    .seventh-section-crutch {
+        background-image: initial;
+    }
+}
 
 div.eighth-section {
     background-image: url("Images/00010.png");
     background-size: 100% 100%;
+}
+
+@media (max-width: 991.98px) {
+    div.eighth-section {
+        background-image: url("Images/00014.png");
+        background-size: 100% 100%;
+    }
 }
 
 .no-right-margin {
@@ -269,4 +295,8 @@ p.right-block.half-invisible {
 
 p.right-block.blue.inline{
     font-size: 32px;
+}
+
+.no-left-padding {
+    padding-left: 0;
 }
