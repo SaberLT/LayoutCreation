@@ -49,7 +49,7 @@ div.second-section {
 .second-section-margin {
     margin-left: 256px;
     margin-top: 80px;
-    margin-bottom: 100px;
+    margin-bottom: 36px;
     max-width: 600px;
 }
 
@@ -109,6 +109,57 @@ p.middle-text {
 
 .fourth-section {
     background: #F8F7F7;
-    margin-top: 48px;
+    margin-top: 36px;
     margin-right: 0px;
+}
+
+.fourth-section-card-header {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.fourth-section-card-text {
+    color: black;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.fourth-section-end {
+    /* margin-bottom: 36px; */
+}
+
+.fifth-block {
+    background: url("Images/00008.png");
+    background-size: 100% 100%;
+    margin-top: 36px;
+}
+
+.fifth-block-content {
+    margin-top: 96px;
+}
+
+.fifth-img-header {
+    margin-bottom: 36px;
+}
+
+.fifth-card-body {
+    font-size: 24px;
+    color: black;
+}
+
+.fifth-card-corner-offset {
+    margin-top: 168px;
+}
+
+.download-yellow-button.no-offset {
+    margin-bottom: 0px;
+}
+
+.reference-bottom-message {
+    margin-top: 36px;
+}
+
+.sixth-section {
+    
 }
