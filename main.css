@@ -230,6 +230,7 @@ div.eighth-section {
 
 .no-right-margin {
     margin-right: 0px;
+    margin-bottom: 48px;
 }
 
 div.text-block-offset {
@@ -237,4 +238,35 @@ div.text-block-offset {
     margin-bottom: 48px;
     padding-right: 0px;
     padding-left: 0px;
+}
+
+div.nineth-section {
+    margin-top: 128px;
+    margin-bottom: 48px;
+    background-color: #F8F7F7;
+}
+
+p.right-block.default {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+p.right-block.blue{
+    color: #38B7FD;
+    font-size: 64px;
+    font-weight: bolder;
+    display: inline;
+}
+
+p.right-block.inline{
+    display: inline;
+}
+
+p.right-block.half-invisible {
+    color: #A6B2BE;
+    font-size: 16px;
+}
+
+p.right-block.blue.inline{
+    font-size: 32px;
 }
