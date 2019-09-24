@@ -161,5 +161,46 @@ p.middle-text {
 }
 
 .sixth-section {
-    
+    background-color: #F8F7F7;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.top-offset {
+    margin-top: 48px;
+}
+
+.sixth-section-content-offset {
+    margin-top: 48px;
+}
+
+.sixth-main-content {
+    margin-top: 64px;
+}
+
+p.sixth-block {
+    text-align: left;
+    font-size: 18px;
+}
+
+p.sixth-block.blue {
+    color: #38B7FD;
+}
+
+p.sixth-block.bold {
+    font-weight: bold;    
+}
+
+p.right-block {
+    text-align: left;
+    font-size: 18px;
+}
+
+.sixth-block.right{
+    margin-bottom: 24px;
+}
+
+.seventh-section {
+    margin-top: 24px;
+    background-color: #FFFFFF;
 }
