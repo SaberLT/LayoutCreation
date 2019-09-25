@@ -273,23 +273,12 @@ p.right-block {
 
 .seventh-section {
     margin-top: 24px;
+    padding-bottom: 64px;
 }
-
-/*
-@media (max-width: 991.98px) {
-    .seventh-section {
-        margin-top: 24px;
-        margin-bottom: 36px;
-        background: url("Images/00013.png");
-        margin-bottom: 0;
-    }
-}
-*/
 
 div.seventh-left-block-offset {
     margin-top: 48px;
     margin-bottom: 48px;
-    padding-left: 16px;
     padding-right: 16px;
     background: white;
 }
@@ -314,6 +303,10 @@ div.seventh-left-block-offset {
         background-image: url("Images/00013.png");
         background-size: 100% 100%;
     }
+}
+
+.eighth-section {
+    margin-left: -8.3333333%;
 }
 
 .eighth-section-crutch {
