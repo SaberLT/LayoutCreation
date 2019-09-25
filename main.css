@@ -252,6 +252,7 @@ div.text-right.padding-r-0 {
 p.sixth-block {
     text-align: left;
     font-size: 18px;
+    font-weight: 500;
 }
 
 p.sixth-block.blue {
@@ -303,10 +304,15 @@ div.seventh-left-block-offset {
         background-image: url("Images/00013.png");
         background-size: 100% 100%;
     }
+    .seventh-section {
+        margin-top: 24px;
+        padding-bottom: 0px;
+    }
 }
 
 .eighth-section {
     margin-left: -8.3333333%;
+    padding-bottom: 48px;
 }
 
 .eighth-section-crutch {
@@ -347,8 +353,8 @@ div.text-block-offset {
 }
 
 div.nineth-section {
-    margin-top: 128px;
-    margin-bottom: 48px;
+    padding-top: 64px;
+    padding-bottom: 96px;
     background-color: #F8F7F7;
 }
 
