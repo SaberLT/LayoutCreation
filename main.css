@@ -72,7 +72,6 @@ div.second-section {
     margin: 0px;
     padding: 48px 0 48px 0;
     background-size: 100% 100%;
-    
 }
 
 @media (max-width: 1200.98px) {
@@ -81,22 +80,14 @@ div.second-section {
     }    
 }
 
-
-
 .second-section-margin {
     margin-top: 16px;
     margin-bottom: 36px;
     max-width: 600px;
 }
 
-@media (max-width: 1300.98px) {
-    .second-section-margin {
-        max-width: 300px;
-    }
-}
 
 p.second-section-header {
-    margin: 48px 0 0 0;
     font: 48px Roboto, sans-serif ;
     color: black;
     font-weight: 600;
@@ -281,7 +272,7 @@ div.seventh-left-block-offset {
     margin-top: 48px;
     margin-bottom: 48px;
     padding-right: 16px;
-    background: white;
+    background: #F8F8F8;
 }
 
 .sixth-block.increased {
@@ -329,7 +320,7 @@ div.eighth-section-right-block {
     padding-bottom: 16px;
     padding-left: 24px;
     padding-right: 24px;
-    background: white;
+    background-color: #F8F8F8;
 }
 
 @media (max-width: 767.98px) {
@@ -393,4 +384,8 @@ p.right-block.blue.inline{
 
 .no-left-margin {
     margin-left: 0;
+}
+
+.margin-t-32 {
+    
 }
