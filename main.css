@@ -49,6 +49,16 @@ div.header-right-block {
     font-size: 48px;
 }
 
+.header-text.margin-tb-16 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.header-text.padding-lr-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 ul.header-right-list {
     list-style-image: url("Images/00002.png");
 }
@@ -56,6 +66,7 @@ ul.header-right-list {
 div.second-section {
     background-image: url("images/00003.png");
     margin: 0px;
+    padding: 48px 0 48px 0;
     background-size: 100% 100%;
     
 }
@@ -68,7 +79,7 @@ div.second-section {
 
 .second-section-margin {
     margin-left: 256px;
-    margin-top: 80px;
+    margin-top: 16px;
     margin-bottom: 36px;
     max-width: 600px;
 }
@@ -84,7 +95,7 @@ p.second-section-header {
     margin: 48px 0 0 0;
     font: 48px Roboto, sans-serif ;
     color: black;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 button.download-button {
@@ -93,16 +104,22 @@ button.download-button {
     font-weight: bold;
     font-family: Roboto, sans-serif;
     color: white;
-    padding: 8px 24px;
+    padding: 9px 16px 9px 25px;
     border-radius: 2px;
-    margin: 0 16px 0 0;
+    margin: 0 0 16px 0;
+}
+
+button.download-button.blue-button {
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 p.middle-text {
     color: black;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 900;
     font-family: Roboto, sans-serif;
+    margin-left: 0px;
 }
 
 .third-section{
