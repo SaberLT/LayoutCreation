@@ -122,24 +122,34 @@ button.download-button.blue-button {
     margin-bottom: 24px;
 }
 
+.margin-l-8 {
+    margin-left: 8px;
+}
+
 p.middle-text {
     color: black;
     font-size: 24px;
     font-weight: 900;
     font-family: Roboto, sans-serif;
     margin-left: 0px;
+    font-weight: normal;
 }
 
 .third-section{
     margin-top: 48px;
+    padding-top: 60px;
     margin-right: 0px;
 }
 
 .third-section-extractor {
     color: black;
     font-size: 36px;
-    font-weight: bold;
+    font-weight: 900;
     font-family: Roboto, sans-serif;
+}
+
+.third-section-main-margin {
+    margin-top: 48px;
 }
 
 div.text-right.padding-r-0 {
