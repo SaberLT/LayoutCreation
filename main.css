@@ -71,22 +71,20 @@ div.second-section {
     
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1200.98px) {
     div.second-section {
         background-image: url("images/00004.png");
     }    
 }
 
 .second-section-margin {
-    margin-left: 256px;
     margin-top: 16px;
     margin-bottom: 36px;
     max-width: 600px;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1300.98px) {
     .second-section-margin {
-        margin-left: 36px;
         max-width: 300px;
     }
 }
