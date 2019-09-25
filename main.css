@@ -98,13 +98,17 @@ p.second-section-header {
     font-weight: 600;
 }
 
+.text-right.padding-r--15 {
+    margin-right: -15px;
+}
+
 button.download-button {
     background: url("Images/00001.svg");
     font-size: 24px;
     font-weight: bold;
     font-family: Roboto, sans-serif;
     color: white;
-    padding: 9px 16px 9px 25px;
+    padding: 6px 16px 9px 25px;
     border-radius: 2px;
     margin: 0 0 16px 0;
 }
@@ -132,6 +136,10 @@ p.middle-text {
     font-size: 36px;
     font-weight: bold;
     font-family: Roboto, sans-serif;
+}
+
+div.text-right.padding-r-0 {
+    padding-right: 0px;
 }
 
 .middle-text.lower-text {
