@@ -40,6 +40,18 @@ div.header-right-block {
     margin: 32px 0 0 0;
 }
 
+.pages-extractor-margin {
+    margin-top: 16px;
+}
+
+.free-download-offset {
+    margin-top: 32px;
+}
+
+.blue-download-button-offset {
+    margin-top: 32px;
+}
+
 .header-text {
     font: 36px Roboto, sans-serif ;
     color: #FFFFFF;
@@ -103,7 +115,7 @@ button.download-button {
     font-weight: bold;
     font-family: Roboto, sans-serif;
     color: white;
-    padding: 6px 16px 9px 25px;
+    padding: 6px 16px 8px 25px;
     border-radius: 2px;
     margin: 0 0 16px 0;
 }
@@ -206,12 +218,12 @@ div.text-right.padding-r-0 {
 }
 
 .fifth-card-corner-offset {
-    margin-top: 0px;
+    margin-top: 168px;
 }
 
-@media(min-width: 991.97px) {       
+@media(max-width: 991.97px) {       
     .fifth-card-corner-offset {
-        margin-top: 168px;
+        margin-top: 0px;
     }
 }
 
@@ -294,6 +306,8 @@ div.seventh-left-block-offset {
     .seventh-section-crutch {
         background-image: url("Images/00013.png");
         background-size: 100% 100%;
+        padding-left: 16px;
+        padding-right: 16px;
     }
     .seventh-section {
         margin-top: 24px;
@@ -386,6 +400,12 @@ p.right-block.blue.inline{
     margin-left: 0;
 }
 
-.margin-t-32 {
-    
+.margin-l-32 {
+    margin-left: 64px;
+}
+
+@media (max-width: 1062.98px) {   
+    .margin-l-32 {
+        margin-left: 0px;
+    }
 }
