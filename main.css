@@ -2,6 +2,15 @@
     margin: 0px;
 }
 
+.margin-tb-8 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.margin-t-32 {
+    margin-top: 32px;
+}
+
 div.first-section {
     background-color : #232E42;
     width: 100%;
@@ -20,12 +29,13 @@ div.header-right-block {
     font: 36px Roboto, sans-serif ;
     color: #FFFFFF;
     display: inline-block;
+    font-weight: bold;
 }
 
 .header-text.header-text-highlight {
     color: #3BB7FD;
     display: inherit;
-    font-weight: bold;
+    font-size: 48px;
 }
 
 ul.header-right-list {
