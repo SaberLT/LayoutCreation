@@ -126,6 +126,11 @@ button.download-button.blue-button {
     margin-left: 8px;
 }
 
+.padding-tb-16-32{
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
 p.middle-text {
     color: black;
     font-size: 24px;
@@ -138,6 +143,7 @@ p.middle-text {
 .third-section{
     margin-top: 48px;
     padding-top: 60px;
+    padding-bottom: 24px;
     margin-right: 0px;
 }
 
@@ -168,7 +174,7 @@ div.text-right.padding-r-0 {
 
 .fourth-section {
     background: #F8F7F7;
-    margin-top: 36px;
+    padding-top: 39px;
     margin-right: 0px;
 }
 
