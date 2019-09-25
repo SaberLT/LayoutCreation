@@ -12,6 +12,10 @@
     margin-bottom: 8px;
 }
 
+.margin-t-16 {
+    margin-top: 16px;
+}
+
 .margin-t-32 {
     margin-top: 32px;
 }
@@ -76,6 +80,8 @@ div.second-section {
         background-image: url("images/00004.png");
     }    
 }
+
+
 
 .second-section-margin {
     margin-top: 16px;
